@@ -1,0 +1,30 @@
+@div_width: 340px;
+
+@a_hover_color: #0000ff;
+
+/* Mixin */
+.transition (@prop: all, @time: 1s, @ease: linear) {
+    -webkit-transition: @prop @time @ease;
+    -moz-transition: @prop @time @ease;
+    -o-transition: @prop @time @ease;
+    -ms-transition: @prop @time @ease;
+    transition: @prop @time @ease;
+}
+
+/* Implementation */
+#somediv {
+    .transition(all, 0.5s, ease-in);
+} 
+ 
+#somediv:hover {
+    opacity: 0;
+} 
+
+#anotherdiv {
+    width:@div_width;
+}
+
+a:hover {
+    color:@a_hover_color !important;
+    text-decoration: none !important;
+}
