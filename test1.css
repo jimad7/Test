@@ -1,0 +1,45 @@
+/* Mixin */
+/* Implementation */
+#somediv1 {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+#somediv1:hover {
+  opacity: 0;
+}
+#anotherdiv {
+  width: 350px;
+}
+a:hover {
+  color: #0000ff !important;
+  text-decoration: none !important;
+}
+/* Mixin */
+/* Implementation */
+#somediv2 {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+/* Mixin */
+/* Implementation */
+#somediv2 {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+/* Mixin */
+/* Implementation */
+#someDiv3 {
+  background-color: #663333;
+  background-image: -webkit-linear-gradient(left, #663333, #333333);
+  background-image: -moz-linear-gradient(left, #663333, #333333);
+  background-image: -o-linear-gradient(left, #663333, #333333);
+  background-image: -ms-linear-gradient(left, #663333, #333333);
+  background-image: linear-gradient(left, #663333, #333333);
+}
